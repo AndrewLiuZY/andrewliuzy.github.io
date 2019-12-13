@@ -5,9 +5,9 @@
   <subtitle>go! go! go!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://lzy.cool/"/>
-  <updated>2019-12-12T10:01:23.344Z</updated>
-  <id>https://lzy.cool/</id>
+  <link href="http://lzy.cool/"/>
+  <updated>2019-12-13T09:10:01.793Z</updated>
+  <id>http://lzy.cool/</id>
   
   <author>
     <name>Andrew Liu</name>
@@ -17,9 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>about</title>
+    <link href="http://lzy.cool/2019/12/13/about/"/>
+    <id>http://lzy.cool/2019/12/13/about/</id>
+    <published>2019-12-13T09:10:01.000Z</published>
+    <updated>2019-12-13T09:10:01.793Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://lzy.cool/2019/12/12/hello-world/"/>
-    <id>https://lzy.cool/2019/12/12/hello-world/</id>
+    <link href="http://lzy.cool/2019/12/12/hello-world/"/>
+    <id>http://lzy.cool/2019/12/12/hello-world/</id>
     <published>2019-12-12T08:04:12.212Z</published>
     <updated>2019-12-12T10:01:23.344Z</updated>
     
