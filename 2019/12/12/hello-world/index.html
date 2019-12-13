@@ -97,7 +97,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/12/hello-world/" data-id="ck43gfsry0000m0vx6hv6hd37"
+      <a data-url="http://yoursite.com/2019/12/12/hello-world/" data-id="ck43utnng0001q0vxedbj32f9"
         class="article-share-link">Share</a>
       
     </footer>
@@ -111,6 +111,32 @@
 
   
   
+  <div class="gitalk" id="gitalk-container"></div>
+  
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+  
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+  
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '0486e97a037d7fab8ff2',
+      clientSecret: 'e699e2def32ed70bb3208472815804df22fce69a',
+      repo: 'https://github.com/AndrewLiuZY/gitalk-repo.git',
+      owner: 'AndrewLiuZY',
+      admin: ['AndrewLiuZY'],
+      // id: location.pathname,      // Ensure uniqueness and length less than 50
+      id: md5(location.pathname),
+      distractionFreeMode: false,  // Facebook-like distraction free mode
+      pagerDirection: 'last'
+    })
+
+  gitalk.render('gitalk-container')
+  </script>
+
   
 
 </article>
